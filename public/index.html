@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Socket Tutorial</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+
+        <div class="main-window">
+            <div class="room-title">
+                <h1>Chat Room</h1>
+                <button onClick='openUsers()'class="user-bar-open">=</button>
+            </div>
+            <div class="user-bar">
+                <h2>users</h2>
+            </div>
+            <div class="chat-window">
+                <div class="messages">
+                    <!-- Place the messages using socket.io here -->
+                </div>
+                <div class="messenger">
+                        <input type="text" name="message-bar" class="message-bar"/>
+                        <input type="submit" value="+" name="message-send" class="message-send" onClick="sendMessage()"/>
+                </div>
+            </div>
+        </div>
+        <script>
+            function openUsers() {
+                if(document.querySelector('.user-bar').style.width !== "200px") {
+                    document.querySelector('.user-bar').style.width = "200px";
+                    document.querySelector('.main-window').style.marginLeft = "200px";
+                }
+                else {
+                    document.querySelector('.user-bar').style.width = "0px";
+                    document.querySelector('.main-window').style.marginLeft = "0px";
+                }
+
+            }
+        </script>
+    </body>

@@ -1,0 +1,27 @@
+{
+  "name": "socketio_tut",
+  "version": "1.0.0",
+  "description": "Quick Socketio tutorial for begginers",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tj-Tracy/Socketio_Tutorial.git"
+  },
+  "keywords": [
+    "Socketio",
+    "Tutorial"
+  ],
+  "author": "TJ Tracy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tj-Tracy/Socketio_Tutorial/issues"
+  },
+  "homepage": "https://github.com/Tj-Tracy/Socketio_Tutorial#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socketio": "^1.0.0"
+  }
+}
