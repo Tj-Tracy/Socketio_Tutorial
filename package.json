@@ -4,7 +4,7 @@
   "description": "Quick Socketio tutorial for begginers",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "nodemon app.js"
   },
   "repository": {
     "type": "git",

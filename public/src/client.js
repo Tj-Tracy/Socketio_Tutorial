@@ -1,2 +1,1 @@
-
-//Socket.io client logic
+//Socket.io Client code here

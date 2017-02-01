@@ -66,6 +66,13 @@ html, body {
     margin-top: 10px;
     border-radius: 10px;
     background-color: #4B5970;
+    overflow-y: auto;
+}
+
+.messages p {
+    color: white;
+    margin: 15px 15px 0 15px;
+    font-size: 15px;
 }
 
 .messenger {
